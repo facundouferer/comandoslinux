@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Comandos Linux</title>
+    <meta name="description" content="Una rápida guía de comandos para ejecutar en la consola Linux.">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png?h=696c0e5b8baa8164e57b1195d84dacbb">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png?h=ae4247f4ddc51f6c6a8a6865b512b3bf">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon-180x180.png?h=72386a01e043c651f49e06fb4f0ae0a6">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png?h=ca8af2685a01a271dcb5b7fa1cb4769d">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon-512x512.png?h=74b846836b70d2aca2290017daea71c3">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=34cfc5f73fb532a52f6361c78358d06b">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Electrolize">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="color: rgb(00,255,0);">Comanditos</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars" style="color: rgb(00,255,0);"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#comandosauxiliares" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">auxiliares</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link active js-scroll-trigger" href="#usuarios" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">usuarios</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#archivosydirectorios" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">arch &amp; direct</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#procesos" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">procesos</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#discos" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">discos</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#filtros" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">filtros</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#otros" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">otros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image: url(&quot;assets/img/fondo_inicio.png?h=58f610f7473b2827b139921576e41284&quot;);">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-1 text-center brand-heading" style="font-family: Electrolize, sans-serif;color: rgb(00,255,0);">start linux</h1>
+                        <p class="intro-text" style="font-family: 'B612 Mono', monospace;color: rgb(0,255,0);">Recién llegade a LINUX? Entonces debería pegarle una mirada a estos comandos esenciales.&nbsp;</p><a class="btn btn-link flash animated infinite btn-circle" role="button" href="#comandosauxiliares" style="color: rgb(00,255,0);"><i class="fa fa-angle-double-down animated" style="color: rgb(00,255,0);"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section style="height: 89px;"></section>
+    <section id="comandosauxiliares" class="download-section content-section text-center" style="background-image: url(&quot;assets/img/imagen-rita.png?h=238814411ad4c9801a45d4235ca1780e&quot;);">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">COMANDOS AUXILIARES</h1>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">sudo</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento comando</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Ejecuta un comando como super usuarios</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">man</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento comando</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Imprime el manual del comando especificado si es que éste existe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="usuarios" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">usuarios</h1>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">adduser</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Añade un usuario.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">deluser</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Elimina un usuario.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">passwd</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Cambia la contraseña de un usuario</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">whoami</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Imprime el nombre del usuario actual</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">who</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Muestra el listado de usuarios con sesión iniciada.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="archivosydirectorios" class="download-section content-section text-center" style="background-image: url(&quot;assets/img/imagen-rita.png?h=238814411ad4c9801a45d4235ca1780e&quot;);">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">ARCHIVOS Y DIRECTORIOS</h1>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">ls</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento opción directorio</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">lista el directorio indicado o el directorio actual si no se indica.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">mkdir</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento ruta</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Crea un directorio en la ruta especificada y si sólo se le indica un nombre, lo crea en la ruta actual.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">cd</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento ruta</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Cambia de directorio a la ruta especificada.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">pwd</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Imprime la ruta actual.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">cp</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento origen destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Copia un fichero a otra ruta. Para poder copiar un directorio completo es necesario hacerlo de forma recursiva con el argumento -r.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">mv</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento origen destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Mueve un fichero a otra ruta.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">rm</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento fichero o directorio&nbsp;</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Elimina el fichero o directorio indicado Para borrar un directorio un directorio que no se encuentra vacío es necesario hacerlo de forma recursiva con -r.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">cat</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento fichero</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Imprime por pantalla el contenido del fichero indicado.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">find</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento ruta opción palabra_clave</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Busca en la ruta indicada todos los ficheros que contengan la palabra clave.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">wheresi</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento fichero</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Muy similar a find pero asumiendo que conoces el nombre del fichero actual.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">ln&nbsp;</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento origen destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Crea un enlace duro o sinbólico del fichero o directorio.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">chmod</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento opcion destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Cambia los permisos del directorio o fichero indicado.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">chown</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>Argumento usuario destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Cambia el propietario del directorio o fichero indicado.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="procesos" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">PROCESOS</h1>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">top</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Muestra en tiempo real los procesos que se están ejecutando actualmente.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">ps</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento opción</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Muestra los procesos en ejecución.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">pidof</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento proceso</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Muestra el PID del proceso indicado</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">kill</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento PID</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Mata un proceso por PID.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">killall</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento nombre</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Mata un proceso y todos sus hijos por nombre.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="discos" class="download-section content-section text-center" style="background-image: url(&quot;assets/img/imagen-rita.png?h=238814411ad4c9801a45d4235ca1780e&quot;);">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">DISCOS</h1>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">mount</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento unidad destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Monta la unidad indicada.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">unmount</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento unidad destino</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Desmonta la unidad indicada.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="filtros" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 data-aos="fade" style="color: rgb(00,255,0);font-family: Electrolize, sans-serif;">filtros</h1>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">Los filtros se concatenan a otros comandos, generalmente.&nbsp;</p>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">more</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;"><strong><em>argumento opción</em></strong></p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Filtra el contenido mostrado por pantalla hacia adelente.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">less</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">todo lo contrario de more.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">sort</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">ordena el contenido alfabeticamente.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">grep</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Filtra el argumento siguiendo un patrón.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="otros" class="content-section text-center" style="background-image: url(&quot;assets/img/imagen-rita.png?h=238814411ad4c9801a45d4235ca1780e&quot;);background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-left" data-aos="fade" style="color: rgb(00,255,0);font-size: 27px;font-family: Electrolize, sans-serif;">REDIRECCIONAMIENTOS OPERADORES Y PIPES</h1>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">Símbolos reservados para concatenar comandos.&nbsp;</p>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">&gt;</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Redirecciona la salida del comando hacia otro comando o fichero.</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">&gt;&gt;</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Igual que &gt; pero si se manda a un fichero no lo sobre escribe, agrega el contenido al final.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">&lt;</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">Redirecciona un fichero como entrada a un comando.&nbsp;</p>
+                    <p class="text-left" style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;font-size: 30px;filter: invert(0%);">&amp;&amp;</p>
+                    <p class="text-left" style="color: rgb(255,255,255);font-family: 'B612 Mono', monospace;">AND. Si el primer comando finaliza con éxito, ejecuta el siguiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <ul class="list-inline banner-social-buttons">
+                <li class="list-inline-item">&nbsp;<a class="btn btn-danger btn-lg border-danger shadow btn-default" role="button" href="https://www.instagram.com/facundouferer/" target="_blank"><i class="fa fa-instagram fa-fw" style="color: rgb(00,255,0);"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="btn btn-danger btn-lg border-danger shadow btn-default" role="button" href="https://www.facebook.com/juanfacundouf" target="_blank"><i class="fa fa-facebook-square fa-fw" style="color: rgb(00,255,0);"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="btn btn-danger btn-lg border-danger shadow btn-default" role="button" href="https://twitter.com/facundouferer" target="_blank"><i class="fa fa-twitter fa-fw" style="color: rgb(00,255,0);"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="btn btn-danger btn-lg border-danger shadow btn-default" role="button" href="https://www.facundouferer.com/" target="_blank"><i class="fa fa-mouse-pointer fa-fw" style="color: rgb(00,255,0);"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="btn btn-danger btn-lg text-success border-danger shadow btn-default" role="button" href="https://github.com/juanfacundouf" target="_blank" style="color: rgb(00,255,0);"><i class="fa fa-github fa-fw" style="color: rgb(00,255,0);"></i></a></li>
+            </ul>
+            <p style="color: rgb(00,255,0);font-family: 'B612 Mono', monospace;">Facundo Uferer&nbsp; Comandos Linux 2020</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js?h=4b100b5f946d26af0da80b45394605fb"></script>
+</body>
+
+</html>
